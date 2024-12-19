@@ -1,0 +1,28 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+
+# Backup files
+*.tfstate.backup
+
+# Plan files
+tfplan*
+
+# Variable files
+terraform.tfvars
+
+# Crash logs
+crash.log
+
+# Modules and plugins
+.terraform/
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# AWS credentials
+aws_credentials.txt
